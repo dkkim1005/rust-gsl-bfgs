@@ -2,6 +2,7 @@
 name = "gsl_bfgs"
 description = "Rust implementation of the BFGS algorithm built on the GNU Scientific Library(GSL)."
 version = "0.1.0"
+authors = ["Dongkyu Kim <dkkim1005@gmail.com>"]
 edition = "2021"
 readme = "README.md"
 license = "GNU/General Public Liscense v3.0"
