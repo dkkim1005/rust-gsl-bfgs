@@ -1,8 +1,8 @@
 // Copyright (C) 2025 Dongkyu Kim (dkkim1005@gmail.com)
 //
-// This code is a derivative work of the GSL - GNU Scientific Library project,
-// which is licensed under the GNU General Public License Version 3.0 (GPL-3.0) by
-// Mark Galassi, James Theiler, Brian Gough, Gerad Jungman and many others.
+// This code is a derivative work of the GNU Scientific Library (GSL) project and its extended version.
+// It is licensed under the GNU General Public License Version 3.0 (GPL-3.0) by
+// Brian Gough, Fabrice Rossi, Dong-Hee Kim, and many others.
 //
 // This derivative work is licensed under the GNU GPL-3.0 License by Dongkyu Kim.
 //
