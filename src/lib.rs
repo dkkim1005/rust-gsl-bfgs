@@ -540,9 +540,9 @@ mod tests {
     }
 
     fn test_optimization_for<T: Callback>(func: T, global_minimum: Vec<f64>) {
-        let mut rng = rand::thread_rng();
+        let mut rng = rand::rng();
         let mut p: Vec<f64> = (0..func.ndim())
-            .map(|_| rng.gen_range(-0.25..0.25))
+            .map(|_| rng.random_range(-0.25..0.25))
             .collect();
         optimize(&func, &mut p, ITERMAX, TOLL);
         assert!(euclidean_distance(&p, &global_minimum) < PASS_LEVEL);
